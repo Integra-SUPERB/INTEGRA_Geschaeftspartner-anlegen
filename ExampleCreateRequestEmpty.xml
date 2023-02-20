@@ -1,0 +1,130 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:glob="http://sap.com/xi/SAPGlobal20/Global">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <glob:BusinessPartnerSUITEBulkReplicateRequest>
+         <MessageHeader>
+            <!--Anpassen-->
+            <ID></ID>
+            <!--Anpassen-->
+            <UUID></UUID>
+            <SenderBusinessSystemID></SenderBusinessSystemID>
+            <RecipientBusinessSystemID></RecipientBusinessSystemID>
+         </MessageHeader>
+         <BusinessPartnerSUITEReplicateRequestMessage>
+            <MessageHeader>
+               <!--Anpassen-->
+               <ID></ID>
+               <!--Anpassen-->
+               <UUID></UUID>
+               <SenderBusinessSystemID></SenderBusinessSystemID>
+               <RecipientBusinessSystemID></RecipientBusinessSystemID>
+            </MessageHeader>
+            <BusinessPartner  roleListCompleteTransmissionIndicator="true">
+               <CategoryCode></CategoryCode>
+               <!--Anpassen-->
+               <InternalID></InternalID>
+               <NumberRangeIntervalBusinessPartnerGroupCode></NumberRangeIntervalBusinessPartnerGroupCode>
+               <Customer accountingInformationListCompleteTransmissionIndicator="true" salesArrangementListCompleteTransmissionIndicator="true" unloadingPointsListCompleteTransmissionIndicator="true" taxClassificationListCompleteTransmissionIndicator="true" customerTextListCompleteTransmissionIndicator="true" customerDocumentListCompleteTransmissionIndicator="true" propertyListCompleteTransmissionIndicator="true" propertyValuationCompleteTransmissionIndicator="true">
+                  <MaintenanceProfileCode></MaintenanceProfileCode>
+                  <AccountingInformation actionCode="04" dunningInformationListCompleteTransmissionIndicator="true" withholdingTaxListCompleteTransmissionIndicator="true" accountingTextListCompleteTransmissionIndicator="true">
+                     <CompanyID></CompanyID>
+                     <SortCode></SortCode>
+                     <GeneralLedgerAccountReference>
+                        <ID></ID>
+                     </GeneralLedgerAccountReference>
+                     <PaymentMethodsCode/>
+                     <CashDiscountTermsCode></CashDiscountTermsCode>
+                     <DunningNoticeGroupingCode></DunningNoticeGroupingCode>
+                     <DunningInformation>
+                        <DunningProcedureCode></DunningProcedureCode>
+                     </DunningInformation>
+                  </AccountingInformation>
+                  <SalesArrangement actionCode="04" partnerFunctionsListCompleteTransmissionIndicator="true">
+                     <SalesOrganisationID></SalesOrganisationID>
+                     <DistributionChannelCode></DistributionChannelCode>
+                     <DivisionCode></DivisionCode>
+                     <CurrencyCode></CurrencyCode>
+                     <CashDiscountTermsCode></CashDiscountTermsCode>
+                     <AccountAssignmentGroupCode></AccountAssignmentGroupCode>
+                     <DeliveryTerms>
+                        <Incoterms>
+                           <ClassificationCode></ClassificationCode>
+                           <TransferLocationName></TransferLocationName>
+                        </Incoterms>
+                     </DeliveryTerms>
+                     <PartnerFunctions actionCode="04">
+                        <!--Optional:-->
+                        <PartyRoleCode></PartyRoleCode>
+                     </PartnerFunctions>
+                     <PartnerFunctions actionCode="04">
+                        <!--Optional:-->
+                        <PartyRoleCode></PartyRoleCode>
+                     </PartnerFunctions>
+                     <PartnerFunctions actionCode="04">
+                        <!--Optional:-->
+                        <PartyRoleCode></PartyRoleCode>
+                     </PartnerFunctions>
+                     <PartnerFunctions actionCode="04">
+                        <!--Optional:-->
+                        <PartyRoleCode></PartyRoleCode>
+                     </PartnerFunctions>
+                  </SalesArrangement>
+                  <TaxClassification actionCode="04">
+                     <TaxCountryCode></TaxCountryCode>
+                     <TaxTypeCode></TaxTypeCode>
+                     <TaxGroupCode></TaxGroupCode>
+                  </TaxClassification>
+               </Customer>
+               <AddressInformation actionCode="04">
+                  <ValidityPeriod>
+                     <StartDate>2</StartDate>
+                     <EndDate></EndDate>
+                  </ValidityPeriod>
+                  <AddressUsage actionCode="04">
+                     <AddressUsageCode></AddressUsageCode>
+                     <ValidityPeriod>
+                        <StartDate></StartDate>
+                        <EndDate></EndDate>
+                     </ValidityPeriod>
+                     <DefaultIndicator></DefaultIndicator>
+                  </AddressUsage>
+                  <Address addressNoteListCompleteTransmissionIndicator="true" emailListCompleteTransmissionIndicator="true" facsimileListCompleteTransmissionIndicator="true" organisationNameListCompleteTransmissionIndicator="true" personNameListCompleteTransmissionIndicator="true" postalAddressListCompleteTransmissionIndicator="true" telephoneListCompleteTransmissionIndicator="true" webListCompleteTransmissionIndicator="true">
+                     <PostalAddress>
+                        <CountryCode></CountryCode>
+                        <CityName></CityName>
+                        <StreetPostalCode></StreetPostalCode>
+                        <StreetName></StreetName>
+                        <HouseID></HouseID>
+                     </PostalAddress>
+                  </Address>
+               </AddressInformation>
+               <Common actionCode="04">
+                  <VerbalCommunicationLanguageCode></VerbalCommunicationLanguageCode>
+                  <Person>
+                     <Name>
+                        <GivenName></GivenName>
+                        <FamilyName></FamilyName>
+                     </Name>
+                     <NonVerbalCommunicationLanguageCode></NonVerbalCommunicationLanguageCode>
+                     <BirthDate></BirthDate>
+                  </Person>
+               </Common>
+               <Role actionCode="04">
+                  <RoleCode></RoleCode>
+                  <ValidityPeriod>
+                     <StartDate></StartDate>
+                     <EndDate></EndDate>
+                  </ValidityPeriod>
+               </Role>
+               <Role actionCode="04">
+                  <RoleCode></RoleCode>
+                  <ValidityPeriod>
+                     <StartDate></StartDate>
+                     <EndDate></EndDate>
+                  </ValidityPeriod>
+               </Role>
+            </BusinessPartner>
+         </BusinessPartnerSUITEReplicateRequestMessage>
+      </glob:BusinessPartnerSUITEBulkReplicateRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
