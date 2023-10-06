@@ -1,5 +1,9 @@
 # INTEGRA Geschaeftspartner anlegen
 
+Link to INTEGRA master repository  
+[INTEGRA](https://github.com/Integra-SUPERB/INTEGRA)
+
+
 ## Goal of this repository
 Using the [Geschäftspartner anlegen](https://github.com/Integra-SUPERB/INTEGRA_Geschaeftspartner-anlegen) repository, you can request a new business partner. In Switzerland, both natural persons and juridical persons are considered business partners by the Swiss government. However, if you use this API, you are not actually creating a new business partner directly. Instead, you are sending a request to a team at the Federal Finance Administration (FFA). This team manages the master data and ensures that every person only exists once in the database. If your request is approved, a new business partner will be created.
 
