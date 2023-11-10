@@ -21,6 +21,22 @@ The replication **outbound** is handled here: [Replicate request out service.](h
 
 If you want to learn more about the **success message** that the API should return after a successful replication, you can find detailed information in our [Replicate Confirmation](https://github.com/Integra-SUPERB/INTEGRA_Geschaeftspartner-replikation) Repository.
 
+Special fields that were added are as follows...
+
+Entitätstyp BP_SALES:
+Attribut | Datenelement | Beschreibung
+--- | --- | ---
+ZEBILLACC | ZZA_ZXG_EBILLACCOUNTID | EGOV: eBillAccountID/Provider Nummer
+ZEMAILVER | ZZA_ZXG_EMAILPDFVER | EGOV: Empfängeradresse für den E-Mail-Ver-sand von Rechnung
+ZIEBILACC | ZZA_ZXG_EBILLACCID | EGOV: Interconnect EBillAccountID
+
+Entitätstyp BP_VENGEN:
+Attribut | Datenelement | Beschreibung
+--- | --- | ---
+ZZBILIDDP | ZZA_ZXG_BILLERIDDP | EGOV: BillerID Drittprovider
+ZZBILIDSW | ZZA_ZXG_BILLERIDSW | EGOV: BillerID Swisscom
+ZZBILLID | ZZA_ZXG_BILLERID | EGOV: BillerID
+
 ## Contact information
 With the information provided above, you should gain a high-level overview of the capabilities of the API. 
 
