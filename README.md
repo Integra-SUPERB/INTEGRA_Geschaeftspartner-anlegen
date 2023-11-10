@@ -27,7 +27,7 @@ Entitätstyp BP_SALES:
 Attribut | Datenelement | Beschreibung
 --- | --- | ---
 ZEBILLACC | ZZA_ZXG_EBILLACCOUNTID | EGOV: eBillAccountID/Provider Nummer
-ZEMAILVER | ZZA_ZXG_EMAILPDFVER | EGOV: Empfängeradresse für den E-Mail-Ver-sand von Rechnung
+ZEMAILVER | ZZA_ZXG_EMAILPDFVER | EGOV: Empfängeradresse für den E-Mail-Versand von Rechnungen
 ZIEBILACC | ZZA_ZXG_EBILLACCID | EGOV: Interconnect EBillAccountID
 
 Entitätstyp BP_VENGEN:
